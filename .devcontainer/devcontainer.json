@@ -1,0 +1,14 @@
+{
+  "name": "Cypress Interview",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+  "postCreateCommand": "npm install",
+  "forwardPorts": [8080],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "cypress-io.cypress-snippets",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  }
+}
