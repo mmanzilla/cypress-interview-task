@@ -2,6 +2,7 @@ const { defineConfig } = require('cypress');
 
 module.exports = defineConfig({
   e2e: {
+    projectId: 'ryogfp',
     supportFile: false,
     reporter: 'mochawesome',
     reporterOptions: {
