@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "clean:reports": "rm -rf cypress/reports",
-    "cy:run": "cypress run",
+    "cy:run": "cypress install && cypress run",
     "merge:reports": "npx mochawesome-merge cypress/reports/individual/*.json > cypress/reports/final.json",
     "generate:report": "npx marge cypress/reports/final.json --reportDir cypress/reports --inline",
     "report": "npm run clean:reports && npm run cy:run && npm run merge:reports && npm run generate:report"
