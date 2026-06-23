@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2026-06-23T20:27:30.514Z",
-    "end": "2026-06-23T20:27:34.373Z",
-    "duration": 3859,
+    "start": "2026-06-23T21:09:44.058Z",
+    "end": "2026-06-23T21:09:47.309Z",
+    "duration": 3251,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "595fd00c-26b5-4490-b99a-b10c791777a0",
+      "uuid": "6e134246-c3e3-4152-ba1f-8cc2c8103b7e",
       "title": "",
       "fullFile": "cypress/e2e/task.cy.js",
       "file": "cypress/e2e/task.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "8a492d50-3845-4dd2-878a-7d65d6c4e750",
+          "uuid": "02530c02-a5e0-4678-84f0-9955f2595d77",
           "title": "Checkbox Task",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "should verify checkboxes",
               "fullTitle": "Checkbox Task should verify checkboxes",
               "timedOut": null,
-              "duration": 858,
+              "duration": 872,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit('https://the-internet.herokuapp.com/checkboxes');\n// Task 2: Verify there are 2 checkboxes\ncy.get('input[type=\"checkbox\"]').should('have.length', 2);\n// Task 3: Check the first checkbox and verify it is checked\ncy.get('input[type=\"checkbox\"]').first().check().should('be.checked');",
               "err": {},
-              "uuid": "552d119f-e744-450b-a9a5-397faa7416b1",
-              "parentUUID": "8a492d50-3845-4dd2-878a-7d65d6c4e750",
+              "uuid": "1b84ea56-057f-40e2-90c9-dceb5c2eb5b0",
+              "parentUUID": "02530c02-a5e0-4678-84f0-9955f2595d77",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "552d119f-e744-450b-a9a5-397faa7416b1"
+            "1b84ea56-057f-40e2-90c9-dceb5c2eb5b0"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 858,
+          "duration": 872,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
